@@ -48,7 +48,9 @@ router.post('/addplayer', function(req, res, next) {
 });
 router.post('/search/', function(req, res, next) {
     let id = 'player:'+req.body.id;
-     client.hgetall(id+':*',function(err,obj){
+    let team = ':team:'+req.body.team;
+
+     client.hgetall(id+team,function(err,obj){
          if(!obj){
              res.render('error',{
                  error: 'custom 404',
