@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div.border{
+    border: 1px solid gray;
+}
+div.container {
+    width: 100%;
+
+}
+.home-split{
+    height: 314px;
+}
+div.left{
+    float: left;
+    width: 19%;
+    background-color: #070706;
+
+}
+div.right{
+    float: left;
+    width: 80%;
+}
+img.index{
+    float: right;
+    height: ;
+    width: ;
+}
+img.teampage{
+    float: right;
+    height: ;
+    width: ;
+}
+header, footer {
+    padding: 1em;
+    color: #262116;
+    background-color: #f48c42;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    color: #f48c42;
+    background-color: #070706;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: ;
+}
+
+nav ul a {
+    text-decoration: none;
+}

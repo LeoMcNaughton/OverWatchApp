@@ -1,0 +1,16 @@
+<ul>
+    <img class="index" src="/public/images/overwatch-league.jpg" alt="OverWatchLeague">
+    <a href="/users/addplayer">addplayer</a>
+
+    <div class="">
+        {{#if error}} <span>{{error}}</span>{{/if}}
+        <form class="form-inline" action="/users/search/" method="post">
+            <div style="margin: 24px auto;">
+                <input type="text" name="id" style="width:300px;"class="form-control" placeholder="search for players by gamertag">
+                <input type="submit" value="Search for players">
+            </div>
+
+        </form>
+    </div>
+
+</ul>

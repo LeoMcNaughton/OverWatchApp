@@ -1,0 +1,27 @@
+<h1>Add an Player!</h1>
+
+{{#if error}} <span>{{error}}</span>{{/if}}
+<form action="/users/addplayer" method="post">
+    <div class="form-group">
+        <label>gamertag</label>
+        <input type="text" name="gamertag" class="form-control" placeholder="add gamertag">
+    </div>
+    <div class="form-group">
+        <label>firstname</label>
+        <input type="text" name="firstname" class="form-control" placeholder="add firstname">
+    </div>
+    <div class="form-group">
+        <label>lastname</label>
+        <input type="text" name="lastname" class="form-control" placeholder="add lastname">
+    </div>
+    <div class="form-group">
+        <label>team</label>
+        <input type="text" name="team" class="form-control" placeholder="add team">
+    </div>
+    <div class="form-group">
+        <label>Nationality</label>
+        <input type="text" name="Nationality" class="form-control" placeholder="add Nationality">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Save player">
+</form>
+<a class="btn btn-default" href="/">Back</a>
